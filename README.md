@@ -65,7 +65,7 @@ Este archivo README.md proporciona instrucciones sobre cómo configurar y ejecut
     - Borrar las migraciones existentes y la base de datos (esto eliminará todos los datos actuales):
 
         ```bash
-        python manage.py reset_db
+        rm -Force db.sqlite3
         ```
 
     - Crear nuevas migraciones:
@@ -86,9 +86,18 @@ Este archivo README.md proporciona instrucciones sobre cómo configurar y ejecut
         python manage.py createsuperuser
         ```
 
+## Más Información
+
+Si deseas obtener más información sobre el proyecto y conocer los detalles, puedes acceder a la [página de Notion](https://www.notion.so/DJANGO_TEST-f46dc80c026445e3acda652d1fcbbf8b?pvs=4).
+
 ## Desactivar el entorno virtual
 
 Cuando hayas terminado de trabajar en tu proyecto, puedes desactivar el entorno virtual utilizando el siguiente comando:
 
 ```bash
-deactivate
+ENV/Scripts/deactivate
+```
+
+## Puntos no terminados
+```1.- Añade pruebas unitarias para verificar el funcionamiento correcto de las vistas y modelos```
+```2.- Falto pulir unos detalles en CSS```
